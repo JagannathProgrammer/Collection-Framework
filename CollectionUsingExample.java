@@ -2,13 +2,22 @@ import java.util.ArrayList;
 
 public class CollectionUsingExample {
     public static void main(String[] args) {
-        ArrayList<String> Cl = new ArrayList<>();
-        Cl.add("Jagannath");
-        Cl.add("Rath");
-        Cl.add("Yatra");  
+        ArrayList <String> names = new ArrayList<>();
+        names.add("Jagannath");
+        names.add("Rath");
+        names.add("Yatra");  
 
-        System.out.println(Cl);
+        // Printing elements
+        System.out.println(names);
 
-        
+        // Accessing element
+        System.out.println(names.get(1));
+
+        // Removing element
+        names.remove("Ravi");
+
+        // Printing updated list
+        System.out.println(names);
+
     }
 }
