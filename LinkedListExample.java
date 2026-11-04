@@ -74,5 +74,8 @@ public class LinkedListExample {
         // Clearing the list
         names.clear();   
         System.out.println("22. Printing elements after clearing the list:" + names);
+
+        // capacity of the linked list
+        System.out.println("23. Capacity of the linked list: " + names.size());
     }
 }
