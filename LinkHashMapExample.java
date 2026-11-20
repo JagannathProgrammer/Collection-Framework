@@ -9,6 +9,6 @@ public class LinkHashMapExample {
         
         System.out.println("LinkedHashMap: " + LHM);
         System.out.println(LHM.size());
-        LHM.
+        
     }
 }

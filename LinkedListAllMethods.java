@@ -13,7 +13,7 @@ public class LinkedListAllMethods {
         Names.add("Amit");
         Names.add("Rahul");
 
-        System.out.println("1. Original: " + Names);
+        System.out.println("1. Add Original: " + Names);
 
         // 2. add(index, element)
         Names.add(1, "Raj");
